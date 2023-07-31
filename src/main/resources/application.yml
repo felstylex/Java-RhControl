@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 0408
+    url: jdbc:postgresql://localhost:5432/employee
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        format_sql: true
+        hbm2ddl:
+          auto: update
+    show-sql: true
