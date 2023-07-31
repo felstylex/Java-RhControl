@@ -45,7 +45,7 @@ public class SecurityConfig {
     SecurityFilterChain secutiryFilterChain(HttpSecurity http) throws Exception {
        http.csrf((csrf) -> csrf.disable()).authorizeHttpRequests((authorize) ->
                authorize.requestMatchers(HttpMethod.GET, "/**").permitAll()
-               .requestMatchers("/auth/**").permitAll()
+               .requestMatchers("/**").permitAll()
                .anyRequest().authenticated()
        );
        
