@@ -18,7 +18,7 @@ Para executar o projeto, siga os seguintes passos:
 
 1. Clone este repositório em sua máquina:
 ```bash
-git clone https://github.com/felstylex/Java-RhControl.git
+  git clone https://github.com/felstylex/Java-RhControl.git
 ```
 2. Navegue até o diretório do projeto:
 ```bash
